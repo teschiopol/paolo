@@ -21,7 +21,7 @@ export function NavbarDemo() {
     return (
         <div className="bg-white shadow dark:shadow-purple-400 dark:bg-gray-700 absolute">
             <div className="container flex items-center justify-center p-4 pt-6 mx-auto text-neutral-700 capitalize dark:text-neutral-400">
-                <a href="#" className="text-neutral-700 dark:text-neutral-400 border-b-2 border-purple-500 mx-1.5 sm:mx-6">home</a>
+                <a href="#" className="text-neutral-700 dark:text-neutral-400 border-b-2 border-purple-500 mx-1.5 sm:mx-6">home 🏡</a>
                 <Switch checked={enabled} setChecked={handleThemeChange} />
             </div>
         </div>
