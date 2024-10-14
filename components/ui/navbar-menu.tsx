@@ -109,6 +109,7 @@ export const ProductItem = ({
   );
 };
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
