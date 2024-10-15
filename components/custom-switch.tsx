@@ -9,7 +9,7 @@ export const Switch = ({
 }) => {
   return (
     <form className="flex space-x-4  antialiased items-center">
-      <p className="font-medium text-neutral-700 dark:text-neutral-400">Theme ✨</p>
+      <p className="font-medium text-neutral-700 dark:text-neutral-400 hidden md:block">Theme ✨</p>
       <label
         htmlFor="checkbox"
         className={twMerge(
