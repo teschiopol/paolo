@@ -216,7 +216,7 @@ const cards = [
     },
   },
   {
-    description: "Ubisoft",
+    description: "Ubisoft Québec",
     title: "Assassin's Creed Odyssey",
     src: "/gaming/ac-odyssey.jpeg",
     ctaText: "Visit",
@@ -242,7 +242,7 @@ const cards = [
     },
   },
   {
-    description: "Ubisoft",
+    description: "Ubisoft Toronto",
     title: "Watch Dogs: Legion",
     src: "/gaming/watch-dogs-legion.jpeg",
     ctaText: "Visit",
