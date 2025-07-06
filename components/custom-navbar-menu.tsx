@@ -29,16 +29,16 @@ export function NavbarDemo() {
                     pathname === '/' ? ' border-b-2 ' : 'hover:underline'
                     )
                 }>Home 🏡</a>
-                <a href="/lego" style={{textUnderlineOffset: 5}} className={twMerge(
+                <a href="https://www.brickeconomy.com/member/teschiopol" target="_blank" style={{textUnderlineOffset: 5}} className={twMerge(
                     "text-neutral-700 dark:text-neutral-400 border-purple-500 mx-1.5 sm:mx-6 decoration-purple-500 decoration-2",
                     pathname === '/lego' ? ' border-b-2 ' : 'hover:underline'
                     )
                 }>Lego 🧱</a>
-                <a href="/gaming" style={{textUnderlineOffset: 5}} className={twMerge(
+                <a href="https://psnprofiles.com/Teschiopol" target="_blank" style={{textUnderlineOffset: 5}} className={twMerge(
                     "text-neutral-700 dark:text-neutral-400 border-purple-500 mx-1.5 sm:mx-6 decoration-purple-500 decoration-2",
                     pathname === '/gaming' ? ' border-b-2 ' : 'hover:underline'
                     )
-                }>Gaming 🎮</a>
+                }>PS 🎮</a>
                 <Switch checked={enabled} setChecked={handleThemeChange} />
             </div>
         </div>
