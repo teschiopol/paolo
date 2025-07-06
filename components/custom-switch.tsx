@@ -8,8 +8,7 @@ export const Switch = ({
   setChecked: (checked: boolean) => void,
 }) => {
   return (
-    <form className="flex space-x-4  antialiased items-center">
-      <p className="font-medium text-neutral-700 dark:text-neutral-400">{{checked ? '🌑' : '✨' }}</p>
+    <form className="flex space-x-4  antialiased items-center mx-1.5 sm:mx-6">
       <label
         htmlFor="checkbox"
         className={twMerge(
@@ -44,6 +43,7 @@ export const Switch = ({
           id="checkbox"
         />
       </label>
+      <p className="cursor-default font-medium text-neutral-700 dark:text-neutral-400">{checked ? '🌑' : '✨' }</p>
     </form>
   );
 };

@@ -23,7 +23,7 @@ export function NavbarDemo() {
 
     return (
         <div className="bg-white shadow dark:shadow-purple-400 dark:bg-gray-700 z-20 fixed">
-            <div className="container flex items-center justify-center p-4 pt-6 mx-auto text-neutral-700 capitalize dark:text-neutral-400">
+            <div className="gap-4 md:gap-0 container flex items-center justify-center p-4 pt-6 mx-auto text-neutral-700 capitalize dark:text-neutral-400">
                 <a href="/" style={{textUnderlineOffset: 5}} className={twMerge(
                     "text-neutral-700 dark:text-neutral-400 border-purple-500 mx-1.5 sm:mx-6 decoration-purple-500 decoration-2",
                     pathname === '/' ? ' border-b-2 ' : 'hover:underline'
